@@ -7,7 +7,7 @@ Analyze over 124,000 LinkedIn job postings (2023-2024) using real-time streaming
 ![WhatsApp Image 2024-11-26 at 01 24 50_82264b6b](https://github.com/user-attachments/assets/55a9e9f1-bdf2-4ba2-853b-6269905f908e)
 
 #### **Data Ingestion:**
-Apache Kafka streams job postings and associated data in real-time.
+Amazon MSK streams job postings and associated data in real-time.
 
 #### **Data Cleaning:**
 Azure Databricks performs cleaning (e.g., handling missing values, normalizing salaries).
@@ -30,7 +30,7 @@ Skill demand and correlation with salaries.
 Company-level hiring trends.
 
 ## **Key Features**
-Real-Time Processing: Kafka and Spark Streaming ensure low latency and dynamic updates.
+Real-Time Processing: Amazon MSK and Spark Streaming ensure low latency and dynamic updates.
 Scalability: Handles datasets of over 500,000 records with efficient resource utilization.
 Predictive Modeling: Linear regression predicts salary trends based on job details.
 Interactive Dashboards: Tableau visualizations offer actionable insights for job seekers, recruiters, and policymakers.
@@ -50,7 +50,7 @@ Job types by company (e.g., remote, full-time, contract).
 Correlation between company size, followers, and employee stats.
 
 ## **Technology Stack**
-Streaming: Apache Kafka (on AWS EC2)
+Streaming: Amazon MSK (on AWS EC2)
 
 Data Processing: Apache Spark (via Azure Databricks)
 
