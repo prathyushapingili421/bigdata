@@ -51,8 +51,13 @@ Correlation between company size, followers, and employee stats.
 
 ## **Technology Stack**
 Streaming: Apache Kafka (on AWS EC2)
+
 Data Processing: Apache Spark (via Azure Databricks)
+
 Data Storage: AWS S3
+
 Data Warehousing: AWS Redshift
+
 Machine Learning: Spark MLlib (Linear Regression, Clustering)
+
 Visualization: Tableau Dashboards
