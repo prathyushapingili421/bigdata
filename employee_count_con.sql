@@ -1,0 +1,1 @@
+COPY dev.public.employee_counts FROM 's3://mydbproject/project/cleaned_employee_counts.csv' IAM_ROLE 'arn:aws:iam::339712854011:role/service-role/AmazonRedshift-CommandsAccessRole-20241125T034843' FORMAT AS CSV DELIMITER ',' QUOTE '"' IGNOREHEADER 1 REGION AS 'us-east-2'
