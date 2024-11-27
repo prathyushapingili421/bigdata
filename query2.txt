@@ -1,0 +1,4 @@
+SELECT c.name, cs.speciality
+FROM companies c
+JOIN company_specialities cs ON c.company_id = cs.company_id
+WHERE cs.speciality = 'Artificial Intelligence';

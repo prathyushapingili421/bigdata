@@ -1,0 +1,3 @@
+SELECT job_id, max_salary
+FROM salaries
+WHERE max_salary::DOUBLE PRECISION > 100000;

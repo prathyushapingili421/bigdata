@@ -1,0 +1,5 @@
+
+SELECT p.company_name, s.max_salary, s.med_salary, s.min_salary
+FROM postings p
+JOIN salaries s ON p.job_id = s.job_id
+WHERE p.company_name = 'Google'; -- Replace with a specific company name
